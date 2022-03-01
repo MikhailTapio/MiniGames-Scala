@@ -17,8 +17,8 @@ object ArithmeticGame {
 
   def display(count: Int): Int = {
     val random = new Random()
-    val a = random.between(-100, 101);
-    val b = random.between(-100, 101);
+    val a = random.between(-100, 101)
+    val b = random.between(-100, 101)
     val method = random.between(0, 3)
     val bStr = if (b >= 0) b else "(" + b + ")"
     val result = method match {
